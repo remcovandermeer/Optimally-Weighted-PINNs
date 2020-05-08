@@ -1,5 +1,5 @@
-# Optimally weighted loss functions for solving PDEs with Neural Networks
-Source code accompanying the [paper](https://arxiv.org/abs/2002.06269)
+# [Optimally weighted loss functions for solving PDEs with Neural Networks](https://arxiv.org/abs/2002.06269)
+Recent works have shown that deep neural networks can be employed to solve partial differential equations, giving rise to the framework of physics informed neural networks. We introduce a generalization for these methods that manifests as a scaling parameter which balances the relative importance of the different constraints imposed by partial differential equations. A mathematical motivation of these generalized methods is provided, which shows that for linear and well-posed partial differential equations, the functional form is convex. We then derive a choice for the scaling parameter that is optimal with respect to a measure of relative error. Because this optimal choice relies on having full knowledge of analytical solutions, we also propose a heuristic method to approximate this optimal choice. The proposed methods are compared numerically to the original methods on a variety of model partial differential equations, with the number of data points being updated adaptively. For several problems, including high-dimensional PDEs the proposed methods are shown to significantly enhance accuracy. 
 
 ## To Cite:
        @ARTICLE{2020arXiv200206269V,
