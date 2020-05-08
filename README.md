@@ -1,5 +1,5 @@
 # Optimally weighted loss functions for solving PDEs with Neural Networks
-
+Source code accompanying the [paper](https://arxiv.org/abs/2002.06269)
 
 ## To Cite:
        @ARTICLE{2020arXiv200206269V,
